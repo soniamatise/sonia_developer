@@ -27,7 +27,7 @@ export default {
 
 	// mask clippath
 	&__mask {
-		transition: clip-path 0.5s ease-in-out, width 1s ease 1s;
+		transition: clip-path 0.5s ease-in-out 0.5s, width 1s ease 1s;
 		width: 100%;
 		height: 100%;
 		-webkit-clip-path: polygon(0 0, 80% 0%, 37% 100%, 0% 100%);
