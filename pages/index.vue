@@ -1,6 +1,6 @@
 <template>
 	<main class="page page--home">
-		<intro-text text="Creative Developer based in Amsterdam. Currently focusing on writingcodeandbuildingcoolstuff ." />
+		<intro-text text="Creative Developer based in Amsterdam. The synthesis of code and design is the best way of expressing my own art next to music." />
 		<section-container title="work" information="blablabla">
 			<work-block url="http://patricionusselder.nl/" :image="patricionusselder" title="test hello hello" description="Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters." />
 			<work-block :image="ictsolve" title="test hello hello" />

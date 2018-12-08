@@ -7,6 +7,7 @@
 			<div class="work-block__title">
 				<h2>{{ title }}</h2>
 				<p>{{ description }}</p>
+				<i class="arrow-right"/>
 			</div>
 		</a>
 	</article>
