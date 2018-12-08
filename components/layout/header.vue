@@ -1,6 +1,6 @@
 <template>
 	<header id="header" class="header">
-		<div class="row center small-full medium-full large-20">
+		<div class="row center small-full medium-full large-12">
 			<div class="column">
 				<nav class="main-nav">
 					<ul class="main-nav__list">
@@ -34,6 +34,15 @@ export default {};
 @import '~tools';
 
 .header {
+	padding: 1rem 0;
 	// Header styles
+	.main-nav {
+		&__list {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+		}
+	}
 }
 </style>
