@@ -135,7 +135,7 @@ module.exports = {
 		'vue/mustache-interpolation-spacing': ['warn', 'always'],
 		'vue/no-multi-spaces': 'warn',
 		'vue/require-default-prop': 'error',
-		'vue/require-prop-types': 'warn',
+		'vue/require-prop-types': [0],
 		'vue/v-bind-style': 'warn',
 		'vue/v-on-style': 'warn',
 		//recommended
@@ -143,6 +143,7 @@ module.exports = {
 		'vue/html-quotes': 'warn',
 		'vue/order-in-components': 'warn',
 		'vue/this-in-template': 'error',
-		'vue/attributes-order': 'warn'
+		'vue/attributes-order': 'warn',
+
 	}
 };

@@ -4,7 +4,7 @@
 			<div class="column">
 				<div class="header__logo">
 					<nuxt-link class="header__logo-link" to="/">
-						<div :style="`background-image: url(${logo})`" class="logo"/>
+						<div :style="`background-image: url(${logo})`" class="logo" />
 					</nuxt-link>
 				</div>
 				<nav class="main-nav">
