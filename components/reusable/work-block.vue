@@ -1,12 +1,14 @@
 <template>
 	<article class="work-block">
-		<div class="work-block__mask">
-			<div :style="`background-image: url('${ image }')`" class="work-block__image" />
-		</div>
-		<div class="work-block__title">
-			<h2>{{ title }}</h2>
-			<p>{{ description }}</p>
-		</div>
+		<a target="_blank" :href="url">
+			<div class="work-block__mask">
+				<div :style="`background-image: url('${ image }')`" class="work-block__image" />
+			</div>
+			<div class="work-block__title">
+				<h2>{{ title }}</h2>
+				<p>{{ description }}</p>
+			</div>
+		</a>
 	</article>
 </template>
 
@@ -14,7 +16,7 @@
 export default {
 	components: {
 	},
-	props: ['type', 'title', 'description', 'image'],
+	props: ['type', 'title', 'description', 'image', 'url'],
 };
 </script>
 3

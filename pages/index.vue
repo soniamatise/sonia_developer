@@ -2,7 +2,7 @@
 	<main class="page page--home">
 		<intro-text text="Creative Developer based in Amsterdam. Currently focusing on writingcodeandbuildingcoolstuff ." />
 		<section-container title="work" information="blablabla">
-			<work-block :image="patricionusselder" title="test hello hello" description="Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters." />
+			<work-block url="http://patricionusselder.nl/" :image="patricionusselder" title="test hello hello" description="Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters." />
 			<work-block :image="ictsolve" title="test hello hello" />
 			<work-block :image="wereldvrede" title="test hello hello" />
 			<work-block :image="soniaanubis" title="test hello hello" />
