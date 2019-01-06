@@ -1,13 +1,13 @@
 <template>
 	<article class="work-block">
-		<a target="_blank" :href="url">
+		<a :href="url" target="_blank" class="work-link">
 			<div class="work-block__mask">
 				<div :style="`background-image: url('${ image }')`" class="work-block__image" />
 			</div>
 			<div class="work-block__title">
 				<h2>{{ title }}</h2>
 				<p>{{ description }}</p>
-				<i class="arrow-right"/>
+				<i class="arrow-right" />
 			</div>
 		</a>
 	</article>

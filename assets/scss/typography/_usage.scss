@@ -1,11 +1,94 @@
+* {
+	text-rendering: optimizeLegibility;
+}
+
+// body text
+p,
+li {
+	font-size: rem(18);
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+// Headings
+h1 {
+	font-size: grid(1);
+	line-height: 1;
+	letter-spacing: -1px;
+	font-weight: 500;
+	@include min-('font-size', 1, 40);
+}
+
+h2 {
+	font-size: grid(0.6);
+	line-height: 1.25;
+	font-weight: 500;
+	letter-spacing: -0.6px;
+	@include min-('font-size', 0.6, 32);
+}
+
+h3 {
+	font-size: grid(0.4);
+	line-height: 1.35;
+	letter-spacing: -0.3px;
+	font-weight: 500;
+	@include min-('font-size', 0.4, 26);
+}
+
+h4 {
+	font-size: rem(24);
+	line-height: 40px;
+	letter-spacing: -0.3px;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: rem(18);
+	font-weight: 500;
+	line-height: 1.33;
+	letter-spacing: -0.2px;
+}
+
+h6 {
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: inherit;
-  &.sub {
-    font-weight: 400;
+	color: color(White);
+}
+p{
+  color: color(White);
+}
+
+a:not([class])[href] {
+	text-decoration: none;
+	color: color(Red);
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		height: 1px;
+		width: 0%;
+		background-color: color(Red);
+		transition: width 400ms $easing, background-color 600ms $easing;
+	}
+	&:hover {
+		&::before {
+			width: 100%;
+		}
+	}
+}
+a {
+  text-decoration: none;
+  &.work-link {
+    &::before {
+      display: none !important;
+    }
   }
 }

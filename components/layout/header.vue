@@ -23,19 +23,25 @@
 				</nav>
 			</div>
 		</div>
+		<contact-section/>
 	</header>
 </template>
 
 <script>
-export default {};
+import ContactSection from '~/components/sections/contact-section.vue';
+
+export default {
+	components: {
+		ContactSection,
+	}
+};
 </script>
 
 <style lang="scss">
 @import '~tools';
 
 .header {
-	padding: 1rem 0;
-	// Header styles
+	padding: 2rem 0;
 	.main-nav {
 		&__list {
 			display: flex;

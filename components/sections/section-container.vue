@@ -1,5 +1,5 @@
 <template>
-	<section class="row center centered-text small-full medium-full large-full">
+	<section class="row center centered-text small-full medium-full large-22">
 		<div class="column">
 			<h2>{{ title }}</h2>
 			<h4>{{ information }}</h4>

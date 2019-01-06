@@ -1,5 +1,5 @@
 <template>
-	<section class="row center centered-text small-full medium-half large-8">
+	<section class="row center centered-text small-full medium-half large-14">
 		<div class="column">
 			<h3 class="text-center" v-html="text" />
 		</div>
